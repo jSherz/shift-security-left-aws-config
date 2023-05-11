@@ -1,0 +1,40 @@
+{
+  "resourceId": "jsj-bucket-777",
+  "awsRegion": "eu-west-1",
+  "awsAccountId": "111111111111",
+  "configRuleName": "s3-bucket-level-public-access-prohibited-conformance-pack-mogxp88qe",
+  "recordVersion": "1.0",
+  "configRuleARN": "arn:aws:config:eu-west-1:111111111111:config-rule/aws-service-rule/config-conforms.amazonaws.com/config-rule-ga3s41",
+  "messageType": "ComplianceChangeNotification",
+  "newEvaluationResult": {
+    "evaluationResultIdentifier": {
+      "evaluationResultQualifier": {
+        "configRuleName": "s3-bucket-level-public-access-prohibited-conformance-pack-mogxp88qe",
+        "resourceType": "AWS::S3::Bucket",
+        "resourceId": "jsj-bucket-777",
+        "evaluationMode": "DETECTIVE"
+      },
+      "orderingTimestamp": "2023-05-11T17:57:23.978Z"
+    },
+    "complianceType": "COMPLIANT",
+    "resultRecordedTime": "2023-05-11T17:57:29.823Z",
+    "configRuleInvokedTime": "2023-05-11T17:57:29.647Z"
+  },
+  "oldEvaluationResult": {
+    "evaluationResultIdentifier": {
+      "evaluationResultQualifier": {
+        "configRuleName": "s3-bucket-level-public-access-prohibited-conformance-pack-mogxp88qe",
+        "resourceType": "AWS::S3::Bucket",
+        "resourceId": "jsj-bucket-777",
+        "evaluationMode": "DETECTIVE"
+      },
+      "orderingTimestamp": "2023-05-11T17:47:56.716Z"
+    },
+    "complianceType": "NON_COMPLIANT",
+    "resultRecordedTime": "2023-05-11T17:48:06.981Z",
+    "configRuleInvokedTime": "2023-05-11T17:48:06.791Z",
+    "annotation": "PublicAccessBlockConfigurations are incorrect for block_public_acls: False ignore_public_acls: False block_public_policy: False restrict_public_buckets False"
+  },
+  "notificationCreationTime": "2023-05-11T17:57:30.573Z",
+  "resourceType": "AWS::S3::Bucket"
+}

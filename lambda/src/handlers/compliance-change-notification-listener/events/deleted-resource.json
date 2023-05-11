@@ -1,0 +1,49 @@
+{
+  "version": "0",
+  "id": "0db0f28e-8409-037f-e42d-cfe2893f782c",
+  "detail-type": "Config Rules Compliance Change",
+  "source": "aws.config",
+  "account": "111111111111",
+  "time": "2023-05-11T17:48:12Z",
+  "region": "eu-west-1",
+  "resources": [],
+  "detail": {
+    "resourceId": "jsj-bucket-666",
+    "awsRegion": "eu-west-1",
+    "awsAccountId": "111111111111",
+    "configRuleName": "s3-bucket-versioning-enabled-conformance-pack-mogxp88qe",
+    "recordVersion": "1.0",
+    "configRuleARN": "arn:aws:config:eu-west-1:111111111111:config-rule/aws-service-rule/config-conforms.amazonaws.com/config-rule-tqrygx",
+    "messageType": "ComplianceChangeNotification",
+    "newEvaluationResult": {
+      "evaluationResultIdentifier": {
+        "evaluationResultQualifier": {
+          "configRuleName": "s3-bucket-versioning-enabled-conformance-pack-mogxp88qe",
+          "resourceType": "AWS::S3::Bucket",
+          "resourceId": "jsj-bucket-666",
+          "evaluationMode": "DETECTIVE"
+        },
+        "orderingTimestamp": "2023-05-11T17:48:00.231Z"
+      },
+      "complianceType": "NOT_APPLICABLE",
+      "resultRecordedTime": "2023-05-11T17:48:11.887Z",
+      "configRuleInvokedTime": "2023-05-11T17:48:11.690Z"
+    },
+    "oldEvaluationResult": {
+      "evaluationResultIdentifier": {
+        "evaluationResultQualifier": {
+          "configRuleName": "s3-bucket-versioning-enabled-conformance-pack-mogxp88qe",
+          "resourceType": "AWS::S3::Bucket",
+          "resourceId": "jsj-bucket-666",
+          "evaluationMode": "DETECTIVE"
+        },
+        "orderingTimestamp": "2023-05-11T17:42:35.180Z"
+      },
+      "complianceType": "NON_COMPLIANT",
+      "resultRecordedTime": "2023-05-11T17:42:44.969Z",
+      "configRuleInvokedTime": "2023-05-11T17:42:44.549Z"
+    },
+    "notificationCreationTime": "2023-05-11T17:48:12.393Z",
+    "resourceType": "AWS::S3::Bucket"
+  }
+}

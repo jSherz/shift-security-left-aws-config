@@ -1,0 +1,35 @@
+{
+  "version": "0",
+  "id": "d91bd714-30f8-b5be-a2a5-82756e6340b0",
+  "detail-type": "Config Rules Compliance Change",
+  "source": "aws.config",
+  "account": "111111111111",
+  "time": "2023-05-11T17:48:07Z",
+  "region": "eu-west-1",
+  "resources": [],
+  "detail": {
+    "resourceId": "jsj-bucket-777",
+    "awsRegion": "eu-west-1",
+    "awsAccountId": "111111111111",
+    "configRuleName": "s3-bucket-public-write-prohibited-conformance-pack-mogxp88qe",
+    "recordVersion": "1.0",
+    "configRuleARN": "arn:aws:config:eu-west-1:111111111111:config-rule/aws-service-rule/config-conforms.amazonaws.com/config-rule-aiq7lv",
+    "messageType": "ComplianceChangeNotification",
+    "newEvaluationResult": {
+      "evaluationResultIdentifier": {
+        "evaluationResultQualifier": {
+          "configRuleName": "s3-bucket-public-write-prohibited-conformance-pack-mogxp88qe",
+          "resourceType": "AWS::S3::Bucket",
+          "resourceId": "jsj-bucket-777",
+          "evaluationMode": "DETECTIVE"
+        },
+        "orderingTimestamp": "2023-05-11T17:47:56.716Z"
+      },
+      "complianceType": "COMPLIANT",
+      "resultRecordedTime": "2023-05-11T17:48:07.009Z",
+      "configRuleInvokedTime": "2023-05-11T17:48:06.824Z"
+    },
+    "notificationCreationTime": "2023-05-11T17:48:07.489Z",
+    "resourceType": "AWS::S3::Bucket"
+  }
+}

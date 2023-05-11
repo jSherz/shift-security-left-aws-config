@@ -1,0 +1,35 @@
+{
+  "version": "0",
+  "id": "33a1416f-68e6-6fe1-6313-7074141badb9",
+  "detail-type": "Config Rules Compliance Change",
+  "source": "aws.config",
+  "account": "111111111111",
+  "time": "2023-05-11T17:48:07Z",
+  "region": "eu-west-1",
+  "resources": [],
+  "detail": {
+    "resourceId": "jsj-bucket-777",
+    "awsRegion": "eu-west-1",
+    "awsAccountId": "111111111111",
+    "configRuleName": "s3-bucket-logging-enabled-conformance-pack-mogxp88qe",
+    "recordVersion": "1.0",
+    "configRuleARN": "arn:aws:config:eu-west-1:111111111111:config-rule/aws-service-rule/config-conforms.amazonaws.com/config-rule-latfki",
+    "messageType": "ComplianceChangeNotification",
+    "newEvaluationResult": {
+      "evaluationResultIdentifier": {
+        "evaluationResultQualifier": {
+          "configRuleName": "s3-bucket-logging-enabled-conformance-pack-mogxp88qe",
+          "resourceType": "AWS::S3::Bucket",
+          "resourceId": "jsj-bucket-777",
+          "evaluationMode": "DETECTIVE"
+        },
+        "orderingTimestamp": "2023-05-11T17:47:56.716Z"
+      },
+      "complianceType": "NON_COMPLIANT",
+      "resultRecordedTime": "2023-05-11T17:48:06.945Z",
+      "configRuleInvokedTime": "2023-05-11T17:48:06.801Z"
+    },
+    "notificationCreationTime": "2023-05-11T17:48:07.470Z",
+    "resourceType": "AWS::S3::Bucket"
+  }
+}
