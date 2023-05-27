@@ -28,6 +28,11 @@ to your GitHub organization!
     }
     ```
 
+    `appId` is the GitHub App ID. Find it in the settings. The `privateKey` is
+    one you'll have to generate and download, also in the app settings. The
+    `installationId` is provided to you when you install the GitHub app in your
+    GitHub organization.
+
 ## Deploying this project
 
 1. Install NodeJS version 18 and Terraform version 1.4.
