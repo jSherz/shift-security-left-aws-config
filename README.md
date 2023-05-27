@@ -10,7 +10,7 @@ faster feedback to people creating infrastructure.
 **NB:** this project assumes it's being used with a GitHub App that's private
 to your GitHub organization!
 
-[a blog post on jSherz.com]: https://github.com/jSherz/shift-security-left-aws-config
+[a blog post on jSherz.com]: https://jsherz.com/aws/security/terraform/lambda/2023/05/27/shift-security-left-aws-config.html
 
 ## Setting up
 
