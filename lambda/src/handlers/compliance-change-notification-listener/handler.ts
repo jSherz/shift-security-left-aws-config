@@ -91,6 +91,11 @@ export function buildHandler(
     const project = tags[`${companyIdentifier}:workload:project`];
     const ref = tags[`${companyIdentifier}:workload:ref`];
 
+    if (ref === "main") {
+      logger.info("not for a pull request - skipping", { ref });
+      return;
+    }
+
     if (project && ref) {
       const rule = parsedEvent.detail.configRuleName;
       const region = parsedEvent.detail.awsRegion;
